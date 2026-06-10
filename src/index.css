@@ -1,0 +1,24 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.fade-in {
+  animation: smoothReveal 1.5s ease-in-out;
+}
+
+@keyframes smoothReveal {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+img {
+  object-fit: cover;
+}
