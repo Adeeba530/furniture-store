@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Categories from "./components/Categories";
-import Product from "./components/Product";
-import WhyChooseUs from "./components/WhyChooseUs";
-import Testimonials from "./components/Testimonials";
-import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Categories from "./Components/Categories";
+import Product from "./Components/Product";
+import WhyChooseUs from "./Components/WhyChooseUs";
+import Testimonials from "./Components/Testimonials";
+import Newsletter from "./Components/Newsletter";
+import Footer from "./Components/Footer";
 import { BsCart3 } from "react-icons/bs";
 
 function App() {
